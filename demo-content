@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+    <title>Daily Jogajog Demo Content</title>
+    <link>https://dailyjogajog.com</link>
+    <description>Demo content with categories, posts, and menus</description>
+    <language>bn</language>
+
+    <!-- Categories -->
+    <wp:category>
+        <wp:cat_name><![CDATA[জাতীয়]]></wp:cat_name>
+        <wp:category_nicename><![CDATA[national]]></wp:category_nicename>
+    </wp:category>
+
+    <wp:category>
+        <wp:cat_name><![CDATA[রাজনীতি]]></wp:cat_name>
+        <wp:category_nicename><![CDATA[politics]]></wp:category_nicename>
+    </wp:category>
+
+    <wp:category>
+        <wp:cat_name><![CDATA[খেলা]]></wp:cat_name>
+        <wp:category_nicename><![CDATA[sports]]></wp:category_nicename>
+    </wp:category>
+
+    <wp:category>
+        <wp:cat_name><![CDATA[বিনোদন]]></wp:cat_name>
+        <wp:category_nicename><![CDATA[entertainment]]></wp:category_nicename>
+    </wp:category>
+
+    <wp:category>
+        <wp:cat_name><![CDATA[টেকনোলজি]]></wp:cat_name>
+        <wp:category_nicename><![CDATA[technology]]></wp:category_nicename>
+    </wp:category>
+
+    <wp:category>
+        <wp:cat_name><![CDATA[স্বাস্থ্য]]></wp:cat_name>
+        <wp:category_nicename><![CDATA[health]]></wp:category_nicename>
+    </wp:category>
+
+    <!-- Sample Posts -->
+    <item>
+        <title>জাতীয় বাজেট ২০২৫ ঘোষণা</title>
+        <content:encoded><![CDATA[২০২৫ সালের জাতীয় বাজেট সংসদে ঘোষণা করা হয়েছে।]]></content:encoded>
+        <wp:post_type>post</wp:post_type>
+        <category domain="category"><![CDATA[জাতীয়]]></category>
+    </item>
+
+    <item>
+        <title>রাজনীতিতে নতুন জোট গঠন</title>
+        <content:encoded><![CDATA[বাংলাদেশের রাজনীতিতে নতুন একটি জোট গঠন হয়েছে।]]></content:encoded>
+        <wp:post_type>post</wp:post_type>
+        <category domain="category"><![CDATA[রাজনীতি]]></category>
+    </item>
+
+    <item>
+        <title>বাংলাদেশের জয়ে উল্লাস</title>
+        <content:encoded><![CDATA[ক্রিকেটে বাংলাদেশের ঐতিহাসিক জয়ে দেশজুড়ে উল্লাস চলছে।]]></content:encoded>
+        <wp:post_type>post</wp:post_type>
+        <category domain="category"><![CDATA[খেলা]]></category>
+    </item>
+
+    <item>
+        <title>নতুন সিনেমা হলে মুক্তি</title>
+        <content:encoded><![CDATA[ঢাকায় নতুন সিনেমা হলে বাংলা সিনেমার মুক্তি।]]></content:encoded>
+        <wp:post_type>post</wp:post_type>
+        <category domain="category"><![CDATA[বিনোদন]]></category>
+    </item>
+
+    <item>
+        <title>টেকনোলজিতে নতুন উদ্ভাবন</title>
+        <content:encoded><![CDATA[দেশে নতুন টেকনোলজি স্টার্টআপ সূচনা করেছে।]]></content:encoded>
+        <wp:post_type>post</wp:post_type>
+        <category domain="category"><![CDATA[টেকনোলজি]]></category>
+    </item>
+
+    <item>
+        <title>স্বাস্থ্য সচেতনতার বার্তা</title>
+        <content:encoded><![CDATA[ডাক্তাররা স্বাস্থ্য সচেতনতা বাড়ানোর আহ্বান জানিয়েছেন।]]></content:encoded>
+        <wp:post_type>post</wp:post_type>
+        <category domain="category"><![CDATA[স্বাস্থ্য]]></category>
+    </item>
+
+    <!-- Menu Items -->
+    <item>
+        <title>জাতীয়</title>
+        <wp:post_type>nav_menu_item</wp:post_type>
+        <wp:menu_item_type>taxonomy</wp:menu_item_type>
+        <wp:menu_item_object>category</wp:menu_item_object>
+        <wp:menu_item_object_id>1</wp:menu_item_object_id>
+        <wp:menu_item_menu_order>1</wp:menu_item_menu_order>
+    </item>
+
+    <item>
+        <title>রাজনীতি</title>
+        <wp:post_type>nav_menu_item</wp:post_type>
+        <wp:menu_item_type>taxonomy</wp:menu_item_type>
+        <wp:menu_item_object>category</wp:menu_item_object>
+        <wp:menu_item_object_id>2</wp:menu_item_object_id>
+        <wp:menu_item_menu_order>2</wp:menu_item_menu_order>
+    </item>
+
+    <item>
+        <title>খেলা</title>
+        <wp:post_type>nav_menu_item</wp:post_type>
+        <wp:menu_item_type>taxonomy</wp:menu_item_type>
+        <wp:menu_item_object>category</wp:menu_item_object>
+        <wp:menu_item_object_id>3</wp:menu_item_object_id>
+        <wp:menu_item_menu_order>3</wp:menu_item_menu_order>
+    </item>
+
+    <item>
+        <title>বিনোদন</title>
+        <wp:post_type>nav_menu_item</wp:post_type>
+        <wp:menu_item_type>taxonomy</wp:menu_item_type>
+        <wp:menu_item_object>category</wp:menu_item_object>
+        <wp:menu_item_object_id>4</wp:menu_item_object_id>
+        <wp:menu_item_menu_order>4</wp:menu_item_menu_order>
+    </item>
+
+    <item>
+        <title>টেকনোলজি</title>
+        <wp:post_type>nav_menu_item</wp:post_type>
+        <wp:menu_item_type>taxonomy</wp:menu_item_type>
+        <wp:menu_item_object>category</wp:menu_item_object>
+        <wp:menu_item_object_id>5</wp:menu_item_object_id>
+        <wp:menu_item_menu_order>5</wp:menu_item_menu_order>
+    </item>
+
+    <item>
+        <title>স্বাস্থ্য</title>
+        <wp:post_type>nav_menu_item</wp:post_type>
+        <wp:menu_item_type>taxonomy</wp:menu_item_type>
+        <wp:menu_item_object>category</wp:menu_item_object>
+        <wp:menu_item_object_id>6</wp:menu_item_object_id>
+        <wp:menu_item_menu_order>6</wp:menu_item_menu_order>
+    </item>
+
+</channel>
+</rss>
